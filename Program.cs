@@ -8,6 +8,8 @@ namespace ServerConApp
     {
         static async Task Main(string[] args)
         {
+            //git cooment
+            
             int port = 8080;
             string ip = "127.0.0.1";
             IPEndPoint ipPoint = new IPEndPoint(IPAddress.Parse(ip), port); // ipPoint - точка подключения
